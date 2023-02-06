@@ -9,6 +9,9 @@
        function MyApp(){ /** MyApp(PascalCase) => that function return a react element === component in react **/
           return react.createElement("h1",null,"hello world!");
        }
+       
+      <br>
+  result :- https://ritika-shishodia.github.io/React/
         
  
  
