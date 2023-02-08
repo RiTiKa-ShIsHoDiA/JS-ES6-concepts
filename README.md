@@ -12,6 +12,8 @@
        
       <br>
   result :- https://ritika-shishodia.github.io/React/
+  
+  ✔ <strong>Moule ,export-import ES6 [Module folder]</strong> 
         
  
  
