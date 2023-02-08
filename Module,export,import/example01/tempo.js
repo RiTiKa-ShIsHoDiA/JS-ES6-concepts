@@ -1,0 +1,1 @@
+export let currentYear = 2023
