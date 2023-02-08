@@ -13,7 +13,9 @@
       <br>
   result :- https://ritika-shishodia.github.io/React/
   
-  ✔ <strong>Moule ,export-import ES6 [Module folder]</strong> 
+ 📌 <strong>ES6 Concepts</strong><br/>
+     
+     ✔ <strong>Moule ,export-import [Module folder]</strong> 
         
  
  
