@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>example03</title>
+</head>
+<body>
+    <script>
+        class Teacher{
+          
+          constructor(name,age,salary){
+              this.name = name;
+              this.age = age;
+              this.salary = salary
+          }
+          raiseSalary(){
+              this.salary += this.salary*0.1;
+          }
+          naam(){
+              var nickname = "laliritika";
+              console.log(nickname);
+              this.sub = "xyz";
+          }
+        }
+        let obj = new Teacher();
+        console.log(obj);
+        console.log(obj.naam());
+        console.log(obj.sub);
+        let obj1 = new Teacher();
+    </script>
+    
+</body>
+</html>

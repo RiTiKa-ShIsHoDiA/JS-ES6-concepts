@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>example03</title>
+</head>
+<body>
+    <script>
+        class Teacher{
+          
+          constructor(name,age,salary){
+              this.name = name;
+              this.age = age;
+              this.salary = salary
+          }
+          raiseSalary(){
+              this.salary += this.salary*0.1;
+          }
+        }
+        let obj = new Teacher("shyama",19,40000);
+        console.log(`name :- ${obj.name}  , age :- ${obj.age}`);
+        console.log(`Before increment salary is :- ${obj.salary}`);
+        obj.raiseSalary();
+        console.log(`name :- ${obj.name}  , age :- ${obj.age}`);
+        console.log(`after increment salary is :- ${obj.salary}`);
+       
+    </script>
+    
+</body>
+</html>
