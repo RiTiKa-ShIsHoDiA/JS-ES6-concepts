@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Example-08</title>
+</head>
+
+<body>
+    <script>
+        class Human {
+            breathing() {
+                document.write("sas le raha h ye vyakti");
+            }
+            constructor(name,age){
+                this.name = name;
+                this.age = age;
+            }
+        }
+        class Female extends Human {
+            walking() {
+                document.write(this.name);
+            }
+            toString(){
+                return `${this.name} , ${this.age}`;
+            }
+        }
+        let obj = new Female("ritika",20);
+        //obj.breathing();
+        document.write(obj)
+    </script>
+
+</body>
+
+</html>

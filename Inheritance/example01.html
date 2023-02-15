@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>example01</title>
+</head>
+<body>
+    <script>
+        class Human{
+            name = "human";
+            breathing(){
+                document.write("sas le raha h ye vyakti");
+            }
+        }
+        class Female extends Human{
+            walking(){
+               document.write(this.name);
+            }
+        }
+        let obj = new Female();
+        //obj.breathing();
+        obj.walking();
+    </script>
+    
+</body>
+</html>
