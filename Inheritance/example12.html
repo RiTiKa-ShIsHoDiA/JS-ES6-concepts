@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Example-12</title>
+</head>
+
+<body>
+    <script>
+        class Human {
+            breathing() {
+                document.write("sas le raha h ye vyakti");
+            }
+            age = "20"
+            constructor(name,age){
+                this.name = name;
+                this.age = age;
+            }
+            assign(){
+                console.log("parent chal raha h");
+            }
+        }
+        class Female extends Human {
+            constructor(name,sal){
+                super(name,sal);
+            }
+            assign(){
+               // super.assign();
+                console.log(super.age);
+            }
+        }
+        let obj = new Female("ritika",20);
+        //obj.breathing();
+        //document.write(obj)
+        console.log(obj);
+        obj.assign();
+    </script>
+
+</body>
+
+</html>

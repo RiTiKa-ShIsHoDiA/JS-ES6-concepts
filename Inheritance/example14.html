@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Example-14</title>
+</head>
+
+<body>
+    <script>
+      class Human{
+          constructor(){
+              this.name = "ritika";
+              this.surname = "shishodia";
+          }
+          get sleep(){   //acessor
+              console.log("sorra hai...");
+              return "nahi soora jag raha hai...";
+          }
+
+        set bdla(first){
+             this.name = first;
+              console.log(`${this.name  }`+ `${this.surname}`)
+          }
+      }
+      console.log(small());
+      let obj = new Human()
+      obj.bdla="narendra modi";//mutator
+    </script>
+
+</body>
+
+</html>
