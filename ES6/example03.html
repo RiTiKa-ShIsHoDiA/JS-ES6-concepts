@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example03</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        class Employee{
+           static Company = "TCS"; // static propery always access by class name
+            constructor(name){
+                this.name = name;
+                this.Age = 22;
+                
+            }
+            toString(){
+                return `name : ${this.name} Age : ${this.Age} Company :${Employee.Company} <br/>`;
+            }
+        }
+     let Obj1 = new Employee("deepika");
+     let Obj2 = new Employee("kajal");
+     Employee.Company = "google";
+     document.write(Obj1);
+     document.write(Obj2);
+     Employee.changeName();
+    </script>
+    
+</body>
+</html>

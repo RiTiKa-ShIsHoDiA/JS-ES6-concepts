@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>example01</title>
+</head>
+<body>
+    <script>
+        class Employee{
+            constructor(fname,lname,sal){
+                this.first = fname;
+                this.last = lname;
+                this.salray = sal 
+            }
+            updateName(name){   //overloading not allowed in JS
+               this.first = name;
+            }
+            updateName(sal){
+                //this.first = "Deepika";
+                this.salray += sal;
+            }
+            
+            toString(){
+                return `name :-${this.first}${this.last} salary :-${this.salray}`;
+            }
+        }
+        let obj = new Employee("Ritika","Shishodia",400000);
+        document.write("before raise salary");
+        document.write(obj);
+        obj.updateName();
+        document.write("<br/>after raise salary");
+        document.write(obj);
+
+    </script>
+    
+</body>
+</html>
