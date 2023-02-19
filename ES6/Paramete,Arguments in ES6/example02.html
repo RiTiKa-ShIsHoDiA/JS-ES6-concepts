@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example02</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <script>
+       function marksheet(name,...args){
+           sum = 0;
+           for (const itr of args) {
+               sum = sum + itr;
+           }
+           document.write(`name is ${name} sum is ${sum}<br/>`);
+          
+       }
+       marksheet("ritika",90,40,50);
+       marksheet("raman",100,40,80);
+    </script>
+    
+</body>
+</html>

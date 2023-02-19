@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example01 rest parameter</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function add(...args){ //rest parameter = array = arguments
+           document.write(args + "<br/>");
+           console.log(args); 
+        }
+        add(10,20)
+        add(10,20,30);
+        add(10,20,30,40);
+        add(10,20,30,40,50);
+    
+    </script>
+    
+</body>
+</html>
