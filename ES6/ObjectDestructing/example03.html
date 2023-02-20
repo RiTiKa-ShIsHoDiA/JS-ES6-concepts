@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Object Destructing 03</title>
+    <style>
+        body {
+            background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <script>
+      
+         let Developer = {
+             name : "Ritika Shishodia",
+             Age : 22,
+             salary : 120000
+         }
+        let {name:n,Age:a,salary:s} = Developer; //if u want to change name u need to do aliasing 
+        document.write(`${n} ${a} ${s}`);
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Array Destructing 05</title>
+    <style>
+        body {
+            background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <script>
+       let Employee = ["ritika",2,["c","c++","html","js"]];
+       let [name, NOofExperience ,[tech1,tech2,tech3]]  = Employee; //Destructing of array
+      
+       document.write(`${name} have ${NOofExperience} experience ,she had  ${tech1} ,${tech2} ${tech3} skillset `);
+    </script>
+
+</body>
+
+</html>
