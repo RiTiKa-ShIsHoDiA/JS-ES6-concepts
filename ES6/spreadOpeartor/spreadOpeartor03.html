@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Spread Operator 03</title>
+    <style>
+        body {
+            background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function Add(...args){
+           document.write(args);
+        }
+        let pro = {                 //object never be spread 
+            name:"ritika",
+            age : 22
+        };
+        Add(...pro); 
+    </script>
+
+</body>
+
+</html>
