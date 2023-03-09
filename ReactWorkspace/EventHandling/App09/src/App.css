@@ -1,0 +1,44 @@
+.App{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:30rem;
+}
+li{
+   display:flex;
+   justify-content: space-between;
+   list-style: none;
+   margin:0.5rem;
+   padding-left:1rem;
+   padding-right:2rem;
+}
+div .Product{
+  background-color: grey;
+   width:30rem;
+   border-radius: 1%;
+}
+.Product hr{
+  color:rgb(33, 29, 29);
+}
+.Product h1{
+  color:purple;
+  padding:0.3rem;
+  text-align: center;
+}
+.Product li span{
+  font-weight: bolder;
+  color:rgb(8, 64, 8);
+}
+
+.Product li button{
+  background-color: red;
+  color:white;
+  border: none;
+  height:1.5rem;
+  width:5rem;
+  border-radius:0.5rem;
+  font-size:1rem;
+}
+.listItem{
+  padding-bottom: 1rem;
+}
